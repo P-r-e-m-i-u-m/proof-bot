@@ -1,0 +1,30 @@
+{
+  "name": "proof-bot",
+  "version": "0.1.0",
+  "description": "A TypeScript CLI that generates evidence-backed proof-of-work comments for GitHub issues and pull requests.",
+  "type": "module",
+  "main": "dist/src/index.js",
+  "bin": {
+    "proof-bot": "dist/src/cli.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "demo": "npm run build && node dist/src/cli.js --issue https://github.com/P-r-e-m-i-u-m/ai-agent-evaluation-kit/issues/6 --commit abc1234 --check \"npm test passed\" --check \"GitHub Actions passed\" --dry-run",
+    "test": "npm run build && node dist/tests/smoke.test.js",
+    "check": "npm run build && npm test && npm run demo"
+  },
+  "keywords": [
+    "github",
+    "cli",
+    "proof-of-work",
+    "developer-tools",
+    "typescript",
+    "automation"
+  ],
+  "author": "Syed Abdul Aman",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "typescript": "^5.8.3"
+  }
+}
