@@ -5,6 +5,8 @@
 
 Turn GitHub issue threads from "done" into clear engineering evidence.
 
+![Proof Bot terminal demo](assets/proof-bot-terminal-demo.gif)
+
 ![Proof Bot preview](assets/proof-bot-preview.svg)
 
 Proof Bot is a TypeScript CLI that generates evidence-backed proof-of-work comments for GitHub issues and pull requests.
@@ -93,6 +95,7 @@ GITHUB_TOKEN=ghp_xxx node dist/src/cli.js \
 - [GitHub Actions usage](docs/GITHUB_ACTIONS.md)
 - [Demo output](docs/DEMO_OUTPUT.md)
 - [Example proof comment](examples/proof-example.md)
+- [LinkedIn launch post](docs/LINKEDIN_LAUNCH_POST.md)
 - [Changelog](CHANGELOG.md)
 
 ## Roadmap
