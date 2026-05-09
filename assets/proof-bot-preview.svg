@@ -1,0 +1,32 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Proof Bot preview</title>
+  <desc id="desc">A dark dashboard-style preview showing Proof Bot generating an evidence-backed GitHub issue comment.</desc>
+  <rect width="1200" height="675" fill="#0B1020"/>
+  <rect x="56" y="48" width="1088" height="579" rx="18" fill="#111827" stroke="#263244"/>
+  <rect x="56" y="48" width="1088" height="64" rx="18" fill="#172033"/>
+  <circle cx="93" cy="80" r="8" fill="#EF4444"/>
+  <circle cx="121" cy="80" r="8" fill="#F59E0B"/>
+  <circle cx="149" cy="80" r="8" fill="#22C55E"/>
+  <text x="185" y="87" fill="#D1D5DB" font-family="Segoe UI, Arial, sans-serif" font-size="18">proof-bot --issue github.com/owner/repo/issues/42 --dry-run</text>
+  <text x="86" y="164" fill="#F9FAFB" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="700">Proof Bot</text>
+  <text x="86" y="204" fill="#9CA3AF" font-family="Segoe UI, Arial, sans-serif" font-size="22">Evidence-backed GitHub issue comments in one CLI command.</text>
+  <rect x="86" y="245" width="476" height="309" rx="14" fill="#0F172A" stroke="#334155"/>
+  <text x="118" y="291" fill="#93C5FD" font-family="Consolas, monospace" font-size="18">## Proof of Work: Add JSON output</text>
+  <text x="118" y="332" fill="#E5E7EB" font-family="Consolas, monospace" font-size="16">Implementation Evidence</text>
+  <text x="138" y="363" fill="#A7F3D0" font-family="Consolas, monospace" font-size="15">- c5af898 Release agent eval v0.2</text>
+  <text x="118" y="405" fill="#E5E7EB" font-family="Consolas, monospace" font-size="16">Verification</text>
+  <text x="138" y="436" fill="#A7F3D0" font-family="Consolas, monospace" font-size="15">- npm run check passed</text>
+  <text x="138" y="463" fill="#A7F3D0" font-family="Consolas, monospace" font-size="15">- GitHub Actions CI passed</text>
+  <text x="118" y="505" fill="#E5E7EB" font-family="Consolas, monospace" font-size="16">Changed Files</text>
+  <text x="138" y="536" fill="#A7F3D0" font-family="Consolas, monospace" font-size="15">- src/cli.ts</text>
+  <rect x="616" y="245" width="498" height="86" rx="14" fill="#102A20" stroke="#1F8A55"/>
+  <text x="648" y="282" fill="#BBF7D0" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">1. Prove the work</text>
+  <text x="648" y="311" fill="#D1FAE5" font-family="Segoe UI, Arial, sans-serif" font-size="16">Commits, checks, files, links, risks, and next steps.</text>
+  <rect x="616" y="355" width="498" height="86" rx="14" fill="#10243A" stroke="#2563EB"/>
+  <text x="648" y="392" fill="#BFDBFE" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">2. Keep issue threads clean</text>
+  <text x="648" y="421" fill="#DBEAFE" font-family="Segoe UI, Arial, sans-serif" font-size="16">No more vague "done" comments.</text>
+  <rect x="616" y="465" width="498" height="86" rx="14" fill="#2B1D10" stroke="#D97706"/>
+  <text x="648" y="502" fill="#FDE68A" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">3. Build public trust</text>
+  <text x="648" y="531" fill="#FEF3C7" font-family="Segoe UI, Arial, sans-serif" font-size="16">Make verification visible to reviewers and maintainers.</text>
+  <text x="86" y="594" fill="#64748B" font-family="Segoe UI, Arial, sans-serif" font-size="16">TypeScript • GitHub API • Dry run • Comment mode • CI-ready</text>
+</svg>
